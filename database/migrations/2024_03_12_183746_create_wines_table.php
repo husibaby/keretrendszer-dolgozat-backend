@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('name',100);
             $table->string('vinery',100);
             $table->string('grape_variety',100);
-            $table->integer('vintage',10);
-            $table->integer('price',50);
+            $table->integer('vintage', false, false, 100);
+            $table->integer('price', false, false, 100);
             $table->timestamps();
         });
     }
