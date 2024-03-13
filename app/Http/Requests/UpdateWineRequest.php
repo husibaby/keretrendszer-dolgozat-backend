@@ -26,7 +26,7 @@ class UpdateWineRequest extends FormRequest
             'vinery'=>'string|max:100',
             'grape_variety'=>'string|max:100',
             'vintage'=>'numeric|integer|min:1800|max:2023',
-            'price'=>'numeric|integer|min:1|max:9999999|max:100',
+            'price'=>'numeric|integer|min:1|max:9999999',
         ];
     }
 }

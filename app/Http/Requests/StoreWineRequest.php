@@ -26,7 +26,7 @@ class StoreWineRequest extends FormRequest
             'vinery'=>'required|string|max:100',
             'grape_variety'=>'required|string|max:100',
             'vintage'=>'required|numeric|integer|min:1800|max:2023',
-            'price'=>'required|numeric|integer|min:1|max:9999999|max:100',
+            'price'=>'required|numeric|integer|min:1|max:9999999',
         ];
     }
 }
