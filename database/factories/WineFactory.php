@@ -17,7 +17,11 @@ class WineFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            "name" => fake()->firstNameFemale(), 
+            "vinery" => fake()->company(), 
+            "grape_variety" => fake()->word(),
+            "vintage" => fake()->numberBetween(1800, 2023),
+            "price" => fake()->numberBetween(1, 999999),
         ];
     }
 }
