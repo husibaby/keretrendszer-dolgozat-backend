@@ -13,7 +13,7 @@ class WineController extends Controller
 {
     /**
      * Display a listing of the resource.
-     * kilistázza az összes elemet
+     * Kilistázza az összes elemet
      */
     public function index()
     {
@@ -23,7 +23,7 @@ class WineController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     * létrehozza és tárolja az új elemet az adatbázisba
+     * Létrehozza és tárolja az új elemet az adatbázisba
      */
     public function store(StoreWineRequest $request)
     {  
